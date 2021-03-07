@@ -45,7 +45,7 @@ const Nweet = ({ nweetObj, isOwner }) => {
           <input
             type="submit"
             value="Update Nweet"
-            className="formBtn editBtn"
+            className="formBtn updateBtn"
           />
           <span onClick={toggleEditing} className="formBtn cancelBtn">
             Cancel
